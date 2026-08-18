@@ -34,3 +34,8 @@ captures/
 
 # Review manually if ever used
 google-services.json
+
+# Release binaries stay in GitHub Releases
+*.apk
+*.aab
+app/release/
