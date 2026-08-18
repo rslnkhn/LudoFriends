@@ -1,0 +1,36 @@
+# Signing keys - NEVER upload
+*.jks
+*.keystore
+key.properties
+keystore.properties
+signing.properties
+
+# Secrets
+.env
+.env.*
+secrets.properties
+*.pem
+*.p12
+*.pfx
+*.key
+
+# Local Android configuration
+local.properties
+
+# Build output
+.gradle/
+build/
+**/build/
+
+# Android Studio
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# macOS
+.DS_Store
+
+# Review manually if ever used
+google-services.json
